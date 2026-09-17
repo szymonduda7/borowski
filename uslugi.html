@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Usługi | Firma Ogólnobudowlana Bartosz Borowski</title>
+<meta name="description" content="Pełna oferta dekarska Bartosza Borowskiego: dachówka ceramiczna, blachodachówka, termoizolacja, papa, obróbki blacharskie, okna dachowe, rynny i naprawy dachów. Brodnica i okolice.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<link rel="stylesheet" href="styles.css">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: '#1c1a17',
+          'ink-soft': '#4c463e',
+          paper: '#efe9dc',
+          'paper-raised': '#f8f3e8',
+          charcoal: '#19181a',
+          'charcoal-raised': '#232226',
+          rust: '#b8501f',
+          'rust-dark': '#8f3d19',
+          'rust-bright': '#d96a34',
+          slate: '#5b6670',
+          'slate-light': '#a2adb4',
+        },
+        fontFamily: {
+          display: ['"Oswald"', 'sans-serif'],
+          sans: ['"Inter"', 'sans-serif'],
+          mono: ['"Inter"', 'sans-serif'],
+        },
+      },
+    },
+  };
+</script>
+</head>
+<body class="bg-paper text-ink">
+
+<!-- ============ HEADER ============ -->
+<header id="site-header" class="site-header fixed top-0 left-0 right-0 z-50 is-scrolled">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 h-16 md:h-20 flex items-center justify-between">
+    <a href="index.html" class="leading-none">
+      <span class="font-display uppercase text-2xl md:text-3xl tracking-tight font-semibold text-paper-raised">Borowski</span>
+      <span class="block text-[11px] text-slate-light mt-0.5">Pokrycia dachów, Brodnica</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-sm font-semibold uppercase tracking-wide">
+      <a href="uslugi.html" class="nav-link text-paper-raised">Usługi</a>
+      <a href="index.html#realizacje" class="nav-link">Realizacje</a>
+      <a href="index.html#opinie" class="nav-link">Opinie</a>
+      <a href="index.html#kontakt" class="nav-link">Kontakt</a>
+    </nav>
+    <a href="tel:783847120" class="btn btn-primary rounded-full px-5 py-2.5 text-sm">
+      <i data-lucide="phone" class="w-4 h-4"></i>
+      783 847 120
+    </a>
+  </div>
+</header>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="relative bg-charcoal overflow-hidden pt-32 pb-28 md:pt-40 md:pb-36 px-5 md:px-8">
+  <div class="grain"></div>
+  <div class="blueprint"></div>
+  <div class="relative max-w-7xl mx-auto">
+    <a href="index.html" class="inline-flex items-center gap-2 text-slate-light hover:text-rust-bright transition-colors text-sm uppercase tracking-wide font-semibold mb-8">
+      <i data-lucide="arrow-left" class="w-4 h-4"></i>
+      Strona główna
+    </a>
+    <div class="rule-bar mb-5"></div>
+    <h1 class="font-display font-bold uppercase text-paper-raised leading-[0.95] tracking-tight text-5xl sm:text-7xl md:text-8xl max-w-4xl">
+      Pełna oferta <span class="text-rust-bright">dekarska</span>
+    </h1>
+    <p class="mt-6 text-lg md:text-xl text-slate-light max-w-2xl leading-relaxed">
+      Dziesięć usług dekarskich i ogólnobudowlanych w jednych rękach. Krycie, obróbki, izolacja i naprawy, wszystko wykonane przez tę samą ekipę od początku do końca.
+    </p>
+  </div>
+</section>
+
+<!-- ============ SERVICE CARDS ============ -->
+<section class="py-20 md:py-24 px-5 md:px-8 bg-paper">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-rust/10 flex items-center justify-center mb-6">
+          <i data-lucide="layers" class="w-7 h-7 text-rust-dark"></i>
+        </div>
+        <h2 class="font-display font-semibold uppercase text-2xl tracking-tight mb-3">Krycie dachówką ceramiczną</h2>
+        <p class="text-ink-soft leading-relaxed">Pokrycia dachowe z dachówki ceramicznej, ułożone zgodnie ze sztuką dekarską, od łacenia po obróbki przy kalenicy.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-rust/10 flex items-center justify-center mb-6">
+          <i data-lucide="grid-3x3" class="w-7 h-7 text-rust-dark"></i>
+        </div>
+        <h2 class="font-display font-semibold uppercase text-2xl tracking-tight mb-3">Pokrycia z blachodachówki</h2>
+        <p class="text-ink-soft leading-relaxed">Blachodachówka tradycyjna, modułowa lub płaska, dobrana do kształtu dachu i oczekiwań inwestora.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-rust/10 flex items-center justify-center mb-6">
+          <i data-lucide="shield-check" class="w-7 h-7 text-rust-dark"></i>
+        </div>
+        <h2 class="font-display font-semibold uppercase text-2xl tracking-tight mb-3">Termoizolacja konstrukcji dachowej</h2>
+        <p class="text-ink-soft leading-relaxed">Skuteczne ocieplenie całej konstrukcji dachu, ograniczające straty ciepła i chroniące więźbę przed wilgocią.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-rust/10 flex items-center justify-center mb-6">
+          <i data-lucide="ruler" class="w-7 h-7 text-rust-dark"></i>
+        </div>
+        <h2 class="font-display font-semibold uppercase text-2xl tracking-tight mb-3">Deskowanie i papa dachowa</h2>
+        <p class="text-ink-soft leading-relaxed">Montaż deskowania wraz z układaniem papy podkładowej lub nawierzchniowej, pod każdy rodzaj pokrycia.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-rust/10 flex items-center justify-center mb-6">
+          <i data-lucide="wrench" class="w-7 h-7 text-rust-dark"></i>
+        </div>
+        <h2 class="font-display font-semibold uppercase text-2xl tracking-tight mb-3">Obróbki dekarskie dachu</h2>
+        <p class="text-ink-soft leading-relaxed">Obróbki blacharskie kalenic, koszy, okapów i innych trudnych detali całej połaci dachowej.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-rust/10 flex items-center justify-center mb-6">
+          <i data-lucide="square-stack" class="w-7 h-7 text-rust-dark"></i>
+        </div>
+        <h2 class="font-display font-semibold uppercase text-2xl tracking-tight mb-3">Opierzenie kominów</h2>
+        <p class="text-ink-soft leading-relaxed">Opierzenie kominów blachą i papą, wykonane szczelnie nawet przy trudnych, nietypowych kształtach.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-rust/10 flex items-center justify-center mb-6">
+          <i data-lucide="sun" class="w-7 h-7 text-rust-dark"></i>
+        </div>
+        <h2 class="font-display font-semibold uppercase text-2xl tracking-tight mb-3">Montaż okien dachowych</h2>
+        <p class="text-ink-soft leading-relaxed">Osadzenie okien połaciowych z prawidłową obróbką i uszczelnieniem, doświetlającym poddasze.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-rust/10 flex items-center justify-center mb-6">
+          <i data-lucide="droplets" class="w-7 h-7 text-rust-dark"></i>
+        </div>
+        <h2 class="font-display font-semibold uppercase text-2xl tracking-tight mb-3">Montaż rynien</h2>
+        <p class="text-ink-soft leading-relaxed">Systemy rynnowe dopasowane do wielkości połaci, odprowadzające wodę z dachu tam, gdzie powinna trafić.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-rust/10 flex items-center justify-center mb-6">
+          <i data-lucide="thermometer" class="w-7 h-7 text-rust-dark"></i>
+        </div>
+        <h2 class="font-display font-semibold uppercase text-2xl tracking-tight mb-3">Docieplanie styropapą</h2>
+        <p class="text-ink-soft leading-relaxed">Ocieplenie dachów płaskich styropapą, łączące izolację termiczną z warstwą pokrycia w jednym materiale.</p>
+      </article>
+
+      <article class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-14 h-14 rounded-full bg-rust/10 flex items-center justify-center mb-6">
+          <i data-lucide="triangle-alert" class="w-7 h-7 text-rust-dark"></i>
+        </div>
+        <h2 class="font-display font-semibold uppercase text-2xl tracking-tight mb-3">Naprawy awaryjne</h2>
+        <p class="text-ink-soft leading-relaxed">Usuwanie nieszczelności i przecieków dachu. W razie awarii zapraszamy do kontaktu telefonicznego.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="relative py-20 px-5 md:px-8 bg-charcoal overflow-hidden">
+  <div class="grain"></div>
+  <div class="blueprint"></div>
+  <div class="relative max-w-3xl mx-auto text-center">
+    <h2 class="font-display font-semibold uppercase text-4xl md:text-5xl leading-[0.95] tracking-tight text-paper-raised mb-5">
+      Nie widzisz swojej usługi?
+    </h2>
+    <p class="text-slate-light text-lg leading-relaxed mb-9 max-w-xl mx-auto">
+      Zadzwoń i opisz problem. Przy pracach dekarskich i ogólnobudowlanych prawie każde zlecenie da się dopasować.
+    </p>
+    <a href="tel:783847120" class="btn btn-primary rounded-full px-8 py-4 text-base inline-flex">
+      <i data-lucide="phone-call" class="w-5 h-5"></i>
+      Zadzwoń: 783 847 120
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-charcoal px-5 md:px-8 pt-16 pb-8 border-t border-white/10">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-3 gap-10 mb-12">
+      <div>
+        <span class="font-display uppercase text-2xl tracking-tight font-semibold text-paper-raised">Borowski</span>
+        <p class="text-slate-light text-sm leading-relaxed max-w-xs mt-4">Firma Ogólnobudowlana Bartosz Borowski. Pokrycia dachowe i obróbki blacharskie w Brodnicy i okolicy.</p>
+      </div>
+      <div class="text-sm">
+        <div class="text-slate-light uppercase tracking-wide text-xs font-semibold mb-4">Nawigacja</div>
+        <ul class="space-y-2">
+          <li><a href="uslugi.html" class="nav-link">Usługi</a></li>
+          <li><a href="index.html#realizacje" class="nav-link">Realizacje</a></li>
+          <li><a href="index.html#opinie" class="nav-link">Opinie</a></li>
+          <li><a href="index.html#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="text-sm">
+        <div class="text-slate-light uppercase tracking-wide text-xs font-semibold mb-4">Kontakt</div>
+        <ul class="space-y-2 text-paper-raised">
+          <li><a href="tel:783847120" class="nav-link">783 847 120</a></li>
+          <li><a href="mailto:bartoszborowski568@icloud.com" class="nav-link break-all">bartoszborowski568@icloud.com</a></li>
+          <li class="text-slate-light">ul. Sudecka 2/3</li>
+          <li class="text-slate-light">87-300 Brodnica</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pt-8 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-xs text-slate-light">
+      <span>© 2026 Firma Ogólnobudowlana Bartosz Borowski. Wszelkie prawa zastrzeżone.</span>
+      <span>NIP 8741747601</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  lucide.createIcons();
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+</body>
+</html>
